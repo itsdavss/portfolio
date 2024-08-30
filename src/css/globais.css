@@ -24,8 +24,8 @@ body {
   flex-wrap: wrap;
 }
 
-.justify-content-between {
-  justify-content: space-between;
+.justify-content-center {
+  justify-content: center;
 }
 
 .alinhar-itens-no-centro{
@@ -87,4 +87,8 @@ body {
 .botao:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-branca);
+}
+
+.destaque {
+  color: var(--cor-primaria);
 }
